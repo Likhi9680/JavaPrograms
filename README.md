@@ -23,6 +23,9 @@ This folder contains basic Java programs created for practicing fundamental prog
 | CheckVowel.java             | Character conditions               |
 | CheckAlphabet.java          | Character validation               |
 | LeapYear.java               | Logical operators and conditions   |
+| Fibonacci.java              | Loops                             |
+
+
 
 ## Concepts Covered
 
