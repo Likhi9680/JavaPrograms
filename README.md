@@ -25,6 +25,8 @@ This folder contains basic Java programs created for practicing fundamental prog
 | LeapYear.java               | Logical operators and conditions   |
 | Fibonacci.java              | Loops                              |
 | GCD.java                    | Loops                              |
+| PrimeCheck.java             | Loops and conditions statements    |
+| PrimeInRange.java           | Loops, conditions and control statements|
 
 
 
