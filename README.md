@@ -1,281 +1,148 @@
-# JavaPrograms
+# JavaPrograms ☕💻
 
-A collection of Java programs created to practice fundamental programming concepts, strengthen logical thinking, and improve problem-solving skills through hands-on coding.
+Welcome to **JavaPrograms**! This repository contains my journey of learning Java programming, from basic concepts to arrays and problem-solving.
 
-This repository covers Java basics, arithmetic operations, conditional statements, loops, number-based problems, and arrays.
+All programs are organized inside a single `Basics` folder to keep the repository simple and easy to navigate.
 
-## Repository Structure
+## 📁 Repository Structure
 
 ```text
 JavaPrograms/
-├── README.md
-└── Basics/
-    ├── HelloWorld.java
-    ├── Input.java
-    ├── SumOfTwoNumbers.java
-    ├── DifferenceOfTwoNumbers.java
-    ├── ProductOfTwoNumbers.java
-    ├── Division.java
-    ├── Average.java
-    ├── EvenOdd.java
-    ├── PositiveNegative.java
-    ├── LargestOfTwo.java
-    ├── LargestOfThree.java
-    ├── SwapTwoNumbers.java
-    ├── SimpleCalculator.java
-    ├── CheckVowel.java
-    ├── CheckAlphabet.java
-    ├── LeapYear.java
-    ├── Fibonacci.java
-    ├── GCD.java
-    ├── PrimeCheck.java
-    ├── PrimeInRange.java
-    ├── HCFANDLCM.java
-    ├── MaxElementAndIndex.java
-    ├── SumOfArrayElements.java
-    ├── AvgOfArrayElements.java
-    ├── MergeStringArrays.java
-    ├── MinLenWordInArray.java
-    ├── MaxLenWordInArray.java
-    └── ReverseArray.java
+│
+├── Basics/
+│   ├── HelloWorld.java
+│   ├── Input.java
+│   ├── SumOfTwoNumbers.java
+│   ├── DifferenceOfTwoNumbers.java
+│   ├── ProductOfTwoNumbers.java
+│   ├── Division.java
+│   ├── Average.java
+│   ├── EvenOdd.java
+│   ├── PositiveNegative.java
+│   ├── LargestOfTwo.java
+│   ├── LargestOfThree.java
+│   ├── SwapTwoNumbers.java
+│   ├── SimpleCalculator.java
+│   ├── CheckVowel.java
+│   ├── CheckAlphabet.java
+│   ├── LeapYear.java
+│   ├── Fibonacci.java
+│   ├── GCD.java
+│   ├── PrimeCheck.java
+│   ├── PrimeInRange.java
+│   ├── HCFANDLCM.java
+│   ├── MaxElementAndIndex.java
+│   ├── SumOfArrayElements.java
+│   ├── AvgOfArrayElements.java
+│   ├── MergeStringArrays.java
+│   ├── MinLenWordInArray.java
+│   ├── MaxLenWordInArray.java
+│   ├── ReverseArray.java
+│   ├── SumOf2DArray.java
+│   ├── RowWiseSum2DArray.java
+│   ├── ColumnWiseSum2DArray.java
+│   ├── LargestElementIn2DArray.java
+│   └── SmallestElementIn2DArray.java
+│
+└── README.md
 ```
 
-## Programs and Concepts
+## 📚 Programs and Concepts
 
-### 1. Basic Syntax and Input/Output
+### 1. Basic Java Programs
 
-Learning the structure of Java programs, displaying output, and accepting user input.
+| No. | Program | Concepts Covered |
+|---:|---|---|
+| 1 | `HelloWorld.java` | Basic Java syntax and output |
+| 2 | `Input.java` | Taking user input using `Scanner` |
+| 3 | `SumOfTwoNumbers.java` | Addition of two numbers |
+| 4 | `DifferenceOfTwoNumbers.java` | Subtraction of two numbers |
+| 5 | `ProductOfTwoNumbers.java` | Multiplication of two numbers |
+| 6 | `Division.java` | Division and modulus operators |
+| 7 | `Average.java` | Calculating the average |
+| 8 | `EvenOdd.java` | Checking whether a number is even or odd |
+| 9 | `PositiveNegative.java` | Checking positive, negative, or zero |
+| 10 | `LargestOfTwo.java` | Finding the largest of two numbers |
+| 11 | `LargestOfThree.java` | Finding the largest of three numbers |
+| 12 | `SwapTwoNumbers.java` | Swapping two numbers |
+| 13 | `SimpleCalculator.java` | Arithmetic operations using `switch` |
+| 14 | `CheckVowel.java` | Checking whether a character is a vowel |
+| 15 | `CheckAlphabet.java` | Checking whether a character is an alphabet |
+| 16 | `LeapYear.java` | Checking leap-year conditions |
 
-| Program | Description |
-|---|---|
-| `HelloWorld.java` | Prints a message to the console. |
-| `Input.java` | Accepts user input using the `Scanner` class. |
+### 2. Number-Based Programs
 
-### 2. Variables, Data Types, and Arithmetic Operations
+| No. | Program | Concepts Covered |
+|---:|---|---|
+| 17 | `Fibonacci.java` | Generating the Fibonacci series |
+| 18 | `GCD.java` | Finding the greatest common divisor |
+| 19 | `PrimeCheck.java` | Checking whether a number is prime |
+| 20 | `PrimeInRange.java` | Finding prime numbers within a range |
+| 21 | `HCFANDLCM.java` | Calculating HCF and LCM |
 
-Understanding variables, data types, and arithmetic operators to perform mathematical calculations.
+### 3. One-Dimensional Array Programs
 
-| Program | Description |
-|---|---|
-| `SumOfTwoNumbers.java` | Calculates the sum of two numbers. |
-| `DifferenceOfTwoNumbers.java` | Calculates the difference between two numbers. |
-| `ProductOfTwoNumbers.java` | Calculates the product of two numbers. |
-| `Division.java` | Performs division and modulus operations. |
-| `Average.java` | Calculates the average of numbers. |
-| `SwapTwoNumbers.java` | Swaps the values of two variables. |
+| No. | Program | Concepts Covered |
+|---:|---|---|
+| 22 | `MaxElementAndIndex.java` | Finding the maximum element and its index |
+| 23 | `SumOfArrayElements.java` | Calculating the sum of array elements |
+| 24 | `AvgOfArrayElements.java` | Calculating the average of array elements |
+| 25 | `MergeStringArrays.java` | Merging two string arrays and using `Arrays.toString()` |
+| 26 | `MinLenWordInArray.java` | Finding the shortest word and its index |
+| 27 | `MaxLenWordInArray.java` | Finding the longest word and its index |
+| 28 | `ReverseArray.java` | Reversing an array using loops |
 
-### 3. Conditional Statements and Operators
+### 4. Two-Dimensional Array Programs
 
-Using conditions and operators to make decisions based on input values.
+| No. | Program | Concepts Covered |
+|---:|---|---|
+| 29 | `SumOf2DArray.java` | Calculating the sum of all elements in a 2D array |
+| 30 | `RowWiseSum2DArray.java` | Calculating the sum of each row |
+| 31 | `ColumnWiseSum2DArray.java` | Calculating the sum of each column |
+| 32 | `LargestElementIn2DArray.java` | Finding the largest element in a 2D array |
+| 33 | `SmallestElementIn2DArray.java` | Finding the smallest element in a 2D array |
 
-| Program | Description |
-|---|---|
-| `EvenOdd.java` | Checks whether a number is even or odd. |
-| `PositiveNegative.java` | Checks whether a number is positive, negative, or zero. |
-| `LargestOfTwo.java` | Finds the larger of two numbers. |
-| `LargestOfThree.java` | Finds the largest of three numbers. |
-| `LeapYear.java` | Checks whether a year is a leap year. |
+## 🛠️ Technologies Used
 
-### 4. Character-Based Programs
+- **Programming Language:** Java
+- **Input Handling:** `Scanner`
+- **Concepts:** Variables, operators, conditional statements, loops, one-dimensional arrays, two-dimensional arrays, and nested loops
+- **Tools:** Eclipse IDE and Git
 
-Practicing character comparisons and conditional logic.
+## 🎯 Learning Goals
 
-| Program | Description |
-|---|---|
-| `CheckVowel.java` | Checks whether a character is a vowel. |
-| `CheckAlphabet.java` | Checks whether a character is an alphabet letter. |
+- Build a strong foundation in Java programming.
+- Understand conditional statements and loops.
+- Practice number-based problems.
+- Learn one-dimensional and two-dimensional arrays.
+- Improve logical thinking and problem-solving skills.
+- Write clean, readable, and reusable code.
 
-### 5. Switch Statements
+## 🚀 How to Run a Program
 
-Learning to use the `switch` statement to perform different operations based on a selected option.
+1. Clone or download this repository.
+2. Open the `Basics` folder in your preferred Java IDE or terminal.
+3. Compile a Java file:
 
-| Program | Description |
-|---|---|
-| `SimpleCalculator.java` | Performs arithmetic operations using a switch statement. |
+   ```bash
+   javac HelloWorld.java
+   ```
 
-### 6. Loops and Number-Based Problems
+4. Run the compiled program:
 
-Using loops and mathematical logic to solve number-based problems.
+   ```bash
+   java HelloWorld
+   ```
 
-| Program | Description |
-|---|---|
-| `Fibonacci.java` | Generates the Fibonacci sequence. |
-| `GCD.java` | Calculates the Greatest Common Divisor (GCD). |
-| `PrimeCheck.java` | Checks whether a number is prime. |
-| `PrimeInRange.java` | Finds prime numbers within a specified range. |
-| `HCFANDLCM.java` | Calculates the Highest Common Factor (HCF) and Least Common Multiple (LCM). |
+**Note:** If your source file contains `class Main` rather than a class named after the filename, compile the source file and run the class using `java Main`. If you use a `public` class, its name must match the filename.
 
-### 7. Arrays in Java
+## 📈 Learning Progress
 
-Exploring arrays to store multiple values of the same data type, access elements using indices, traverse arrays using loops, and perform operations on array elements.
+This repository documents my Java learning journey, starting with basic syntax and arithmetic operations and progressing to number-based problems, arrays, strings, and matrix operations.
 
-| Program | Description |
-|---|---|
-| `MaxElementAndIndex.java` | Finds the maximum element in an array and displays its index. |
-| `SumOfArrayElements.java` | Calculates the sum of all elements in an array. |
-| `AvgOfArrayElements.java` | Calculates the average of all elements in an array. |
-| `MergeStringArrays.java` | Merges two string arrays into a single array. |
-| `MinLenWordInArray.java` | Finds the shortest word in a string array and displays its index. |
-| `MaxLenWordInArray.java` | Finds the longest word in a string array and displays its index. |
-| `ReverseArray.java` | Reverses the order of elements in a string array. |
+I will continue adding new programs as I learn more Java concepts and improve my problem-solving skills.
 
-#### MaxElementAndIndex.java
+---
 
-Finds the maximum element in an integer array and displays its value and index.
+⭐ Thank you for visiting my repository!
 
-**Example Input**
-```text
-5
-10 25 7 40 15
-```
-
-**Output**
-```text
-value: 40 and index: 3
-```
-
-#### SumOfArrayElements.java
-
-Calculates the sum of all elements in an integer array.
-
-**Example Input**
-```text
-5
-10 20 30 40 50
-```
-
-**Output**
-```text
-Sum of elements in an array is: 150
-```
-
-#### AvgOfArrayElements.java
-
-Calculates the average of all elements in an integer array.
-
-**Example Input**
-```text
-3
-10 20 25
-```
-
-**Output**
-```text
-The average of elements in an array is: 18.333333333333332
-```
-
-#### MergeStringArrays.java
-
-Combines two string arrays into one array while preserving the order of their elements.
-
-**Example Input**
-```text
-3
-Apple
-Mango
-Orange
-2
-Banana
-Grapes
-```
-
-**Output**
-```text
-[Apple, Mango, Orange, Banana, Grapes]
-```
-
-#### MinLenWordInArray.java
-
-Finds the shortest word in a string array and displays its index.
-
-**Example Input**
-```text
-4
-Apple
-Hi
-Banana
-Cat
-```
-
-**Output**
-```text
-Minimum length word in the string array is: Hi and it's index is: 1
-```
-
-#### MaxLenWordInArray.java
-
-Finds the longest word in a string array and displays its index.
-
-**Example Input**
-```text
-4
-Apple
-Hi
-Banana
-Cat
-```
-
-**Example Output**
-```text
-Maximum length word in the string array is: Banana and it's index is: 2
-```
-
-#### ReverseArray.java
-
-Reverses the order of elements in a string array by traversing the original array from the last index to the first and copying each element into a new array.
-
-**Example Input**
-```text
-4
-Apple
-Mango
-Orange
-Banana
-```
-
-**Output**
-```text
-[Banana, Orange, Mango, Apple]
-```
-
-## Java Concepts Covered
-
-- Java syntax and program structure
-- Variables and data types
-- Input and output using `Scanner`
-- Arithmetic operators
-- Relational and logical operators
-- Conditional statements (`if-else`)
-- `switch` statements
-- Loops and control flow
-- Character comparisons
-- Mathematical and number-based problem-solving
-- Array declaration and initialization
-- Array traversal and indexing
-- Finding maximum and minimum-length elements
-- Calculating sums and averages
-- Merging arrays
-- Reversing arrays
-- Using the `Arrays` utility class
-- Working with string arrays
-
-## Purpose
-
-The purpose of this repository is to build a strong foundation in Java programming through practical coding exercises. Each program helps develop logical thinking, strengthen understanding of programming fundamentals, and improve problem-solving skills.
-
-## Future Learning
-
-As I continue learning Java, I plan to add more programs covering:
-
-- Additional array operations
-- Searching and sorting algorithms
-- String manipulation
-- Methods and recursion
-- Object-Oriented Programming (OOP)
-- Collections and advanced Java concepts
-
-## Conclusion
-
-This repository represents my ongoing journey of learning Java through practice. I will continue adding programs as I explore new concepts and develop my programming skills.
-
-**Learning Java one program at a time.**
