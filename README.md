@@ -1,148 +1,125 @@
-# JavaPrograms ☕💻
+# Java Programs ☕️
 
-Welcome to **JavaPrograms**! This repository contains my journey of learning Java programming, from basic concepts to arrays and problem-solving.
+Welcome to my **JavaPrograms** repository! This repository contains Java programs that I have practiced while learning Java programming, from basic concepts to one-dimensional and two-dimensional arrays.
 
-All programs are organized inside a single `Basics` folder to keep the repository simple and easy to navigate.
+The goal of this repository is to strengthen my programming fundamentals, improve logical thinking, and practice problem-solving using Java.
 
-## 📁 Repository Structure
+## 📂 Repository Structure
 
 ```text
 JavaPrograms/
 │
 ├── Basics/
-│   ├── HelloWorld.java
-│   ├── Input.java
-│   ├── SumOfTwoNumbers.java
-│   ├── DifferenceOfTwoNumbers.java
-│   ├── ProductOfTwoNumbers.java
-│   ├── Division.java
-│   ├── Average.java
-│   ├── EvenOdd.java
-│   ├── PositiveNegative.java
-│   ├── LargestOfTwo.java
-│   ├── LargestOfThree.java
-│   ├── SwapTwoNumbers.java
-│   ├── SimpleCalculator.java
-│   ├── CheckVowel.java
-│   ├── CheckAlphabet.java
-│   ├── LeapYear.java
-│   ├── Fibonacci.java
-│   ├── GCD.java
-│   ├── PrimeCheck.java
-│   ├── PrimeInRange.java
-│   ├── HCFANDLCM.java
-│   ├── MaxElementAndIndex.java
-│   ├── SumOfArrayElements.java
-│   ├── AvgOfArrayElements.java
-│   ├── MergeStringArrays.java
-│   ├── MinLenWordInArray.java
-│   ├── MaxLenWordInArray.java
-│   ├── ReverseArray.java
-│   ├── SumOf2DArray.java
-│   ├── RowWiseSum2DArray.java
-│   ├── ColumnWiseSum2DArray.java
-│   ├── LargestElementIn2DArray.java
-│   └── SmallestElementIn2DArray.java
+│   └── Java fundamental programs
+│
+├── Arrays1D/
+│   └── One-dimensional array programs
+│
+├── Arrays2D/
+│   └── Two-dimensional array programs
 │
 └── README.md
 ```
 
-## 📚 Programs and Concepts
+## 📘 1. Basics
 
-### 1. Basic Java Programs
+This folder contains programs covering Java fundamentals, basic problem-solving, and commonly used programming concepts.
 
-| No. | Program | Concepts Covered |
-|---:|---|---|
-| 1 | `HelloWorld.java` | Basic Java syntax and output |
-| 2 | `Input.java` | Taking user input using `Scanner` |
-| 3 | `SumOfTwoNumbers.java` | Addition of two numbers |
-| 4 | `DifferenceOfTwoNumbers.java` | Subtraction of two numbers |
-| 5 | `ProductOfTwoNumbers.java` | Multiplication of two numbers |
-| 6 | `Division.java` | Division and modulus operators |
-| 7 | `Average.java` | Calculating the average |
-| 8 | `EvenOdd.java` | Checking whether a number is even or odd |
-| 9 | `PositiveNegative.java` | Checking positive, negative, or zero |
-| 10 | `LargestOfTwo.java` | Finding the largest of two numbers |
-| 11 | `LargestOfThree.java` | Finding the largest of three numbers |
-| 12 | `SwapTwoNumbers.java` | Swapping two numbers |
-| 13 | `SimpleCalculator.java` | Arithmetic operations using `switch` |
-| 14 | `CheckVowel.java` | Checking whether a character is a vowel |
-| 15 | `CheckAlphabet.java` | Checking whether a character is an alphabet |
-| 16 | `LeapYear.java` | Checking leap-year conditions |
+**Topics covered:**
+- Basic input and output
+- Variables and data types
+- Conditional statements
+- Loops
+- Mathematical calculations
+- String operations
+- Number-based problems
+- Basic problem-solving techniques
 
-### 2. Number-Based Programs
+## 📗 2. Arrays1D
 
-| No. | Program | Concepts Covered |
-|---:|---|---|
-| 17 | `Fibonacci.java` | Generating the Fibonacci series |
-| 18 | `GCD.java` | Finding the greatest common divisor |
-| 19 | `PrimeCheck.java` | Checking whether a number is prime |
-| 20 | `PrimeInRange.java` | Finding prime numbers within a range |
-| 21 | `HCFANDLCM.java` | Calculating HCF and LCM |
+This folder contains programs that use one-dimensional arrays to store and process collections of elements.
 
-### 3. One-Dimensional Array Programs
+**Programs included:**
+- Find the maximum element and its index
+- Calculate the sum of array elements
+- Calculate the average of array elements
+- Merge two string arrays
+- Find the shortest word and its index
+- Find the longest word and its index
+- Reverse an array
 
-| No. | Program | Concepts Covered |
-|---:|---|---|
-| 22 | `MaxElementAndIndex.java` | Finding the maximum element and its index |
-| 23 | `SumOfArrayElements.java` | Calculating the sum of array elements |
-| 24 | `AvgOfArrayElements.java` | Calculating the average of array elements |
-| 25 | `MergeStringArrays.java` | Merging two string arrays and using `Arrays.toString()` |
-| 26 | `MinLenWordInArray.java` | Finding the shortest word and its index |
-| 27 | `MaxLenWordInArray.java` | Finding the longest word and its index |
-| 28 | `ReverseArray.java` | Reversing an array using loops |
+**Concepts learned:**
+- Array declaration and initialization
+- Accessing elements using indexes
+- Traversing arrays with loops
+- Finding minimum and maximum values
+- Array manipulation
+- Working with string arrays
+- Using the `Arrays.toString()` method
 
-### 4. Two-Dimensional Array Programs
+## 📙 3. Arrays2D
 
-| No. | Program | Concepts Covered |
-|---:|---|---|
-| 29 | `SumOf2DArray.java` | Calculating the sum of all elements in a 2D array |
-| 30 | `RowWiseSum2DArray.java` | Calculating the sum of each row |
-| 31 | `ColumnWiseSum2DArray.java` | Calculating the sum of each column |
-| 32 | `LargestElementIn2DArray.java` | Finding the largest element in a 2D array |
-| 33 | `SmallestElementIn2DArray.java` | Finding the smallest element in a 2D array |
+This folder contains programs that use two-dimensional arrays (matrices) to perform calculations and solve matrix-based problems.
+
+**Programs included:**
+- Sum of all elements in a 2D array
+- Row-wise sum
+- Column-wise sum
+- Find the largest element
+- Find the smallest element
+- Add two 2D arrays
+- Compare corresponding elements of two matrices
+- Check whether two matrices are identical
+- Find the transpose of a matrix
+- Calculate the main diagonal sum
+- Calculate the secondary diagonal sum
+- Calculate the sum of both diagonals
+- Calculate the distinct diagonal sum
+- Calculate the boundary elements sum
+- Calculate the inner elements sum
+
+**Concepts learned:**
+- Two-dimensional array declaration and initialization
+- Nested loops
+- Row and column indexing
+- Matrix addition
+- Matrix comparison
+- Matrix transpose
+- Main and secondary diagonals
+- Boundary and inner elements
+- Conditional logic for matrix operations
 
 ## 🛠️ Technologies Used
 
-- **Programming Language:** Java
-- **Input Handling:** `Scanner`
-- **Concepts:** Variables, operators, conditional statements, loops, one-dimensional arrays, two-dimensional arrays, and nested loops
-- **Tools:** Eclipse IDE and Git
+- **Language:** Java
+- **IDE:** Eclipse
+- **Version Control:** Git and GitHub
 
-## 🎯 Learning Goals
+## 🎯 Learning Objectives
 
 - Build a strong foundation in Java programming.
-- Understand conditional statements and loops.
-- Practice number-based problems.
-- Learn one-dimensional and two-dimensional arrays.
 - Improve logical thinking and problem-solving skills.
+- Understand arrays and matrix operations.
+- Practice loops, conditions, and string manipulation.
 - Write clean, readable, and reusable code.
+- Track my learning progress through GitHub.
 
-## 🚀 How to Run a Program
+## 🚀 How to Run the Programs
 
 1. Clone or download this repository.
-2. Open the `Basics` folder in your preferred Java IDE or terminal.
-3. Compile a Java file:
+2. Open the project in Eclipse or another Java IDE.
+3. Navigate to the required folder.
+4. Open the Java program you want to run.
+5. Compile and execute the program.
 
-   ```bash
-   javac HelloWorld.java
-   ```
+Some programs accept input through the `Scanner` class, so enter the required values in the console.
 
-4. Run the compiled program:
+## 📈 Progress
 
-   ```bash
-   java HelloWorld
-   ```
-
-**Note:** If your source file contains `class Main` rather than a class named after the filename, compile the source file and run the class using `java Main`. If you use a `public` class, its name must match the filename.
-
-## 📈 Learning Progress
-
-This repository documents my Java learning journey, starting with basic syntax and arithmetic operations and progressing to number-based problems, arrays, strings, and matrix operations.
-
-I will continue adding new programs as I learn more Java concepts and improve my problem-solving skills.
+I am continuously learning Java and adding programs as I practice new concepts and improve my problem-solving skills.
 
 ---
 
-⭐ Thank you for visiting my repository!
+⭐ **Thank you for visiting my repository!**
 
+*Code. Learn. Practice. Grow.*
